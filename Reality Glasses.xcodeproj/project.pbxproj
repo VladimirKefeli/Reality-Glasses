@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		DB6078E426245069008B391F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6078E326245069008B391F /* AppDelegate.swift */; };
 		DB6078E626245069008B391F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6078E526245069008B391F /* ContentView.swift */; };
-		DB6078E82624506A008B391F /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = DB6078E72624506A008B391F /* Experience.rcproject */; };
 		DB6078EA26245075008B391F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6078E926245075008B391F /* Assets.xcassets */; };
 		DB6078ED26245075008B391F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6078EC26245075008B391F /* Preview Assets.xcassets */; };
 		DB6078F026245075008B391F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6078EE26245075008B391F /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 		DB6078E026245069008B391F /* Reality Glasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reality Glasses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6078E326245069008B391F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB6078E526245069008B391F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DB6078E72624506A008B391F /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		DB6078E926245075008B391F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB6078EC26245075008B391F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB6078EF26245075008B391F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +56,6 @@
 			children = (
 				DB6078E326245069008B391F /* AppDelegate.swift */,
 				DB6078E526245069008B391F /* ContentView.swift */,
-				DB6078E72624506A008B391F /* Experience.rcproject */,
 				DB6078E926245075008B391F /* Assets.xcassets */,
 				DB6078EE26245075008B391F /* LaunchScreen.storyboard */,
 				DB6078F126245075008B391F /* Info.plist */,
@@ -147,7 +144,6 @@
 			files = (
 				DB6078E626245069008B391F /* ContentView.swift in Sources */,
 				DB6078E426245069008B391F /* AppDelegate.swift in Sources */,
-				DB6078E82624506A008B391F /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
