@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB30A0E526247E220034865E /* screenshot.PNG in Resources */ = {isa = PBXBuildFile; fileRef = DB30A0E426247E220034865E /* screenshot.PNG */; };
 		DB6078E426245069008B391F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6078E326245069008B391F /* AppDelegate.swift */; };
 		DB6078E626245069008B391F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6078E526245069008B391F /* ContentView.swift */; };
 		DB6078EA26245075008B391F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6078E926245075008B391F /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB30A0E426247E220034865E /* screenshot.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.PNG; sourceTree = "<group>"; };
 		DB6078E026245069008B391F /* Reality Glasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reality Glasses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6078E326245069008B391F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB6078E526245069008B391F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,9 +37,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB30A0E326247DFC0034865E /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				DB30A0E426247E220034865E /* screenshot.PNG */,
+			);
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
 		DB6078D726245069008B391F = {
 			isa = PBXGroup;
 			children = (
+				DB30A0E326247DFC0034865E /* Screenshot */,
 				DB6078E226245069008B391F /* Reality Glasses */,
 				DB6078E126245069008B391F /* Products */,
 			);
@@ -132,6 +143,7 @@
 				DB6078F026245075008B391F /* LaunchScreen.storyboard in Resources */,
 				DB6078ED26245075008B391F /* Preview Assets.xcassets in Resources */,
 				DB6078EA26245075008B391F /* Assets.xcassets in Resources */,
+				DB30A0E526247E220034865E /* screenshot.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
